@@ -7,19 +7,19 @@ The original VB macro created by Kris is part of the presentation, it has been e
 
 The example presentation creates an Arduino sketch that renders on a 480x320 TFT screen. This uses the fonts provided in the TFT_eSPI_ext library by Frank Boesing. Frank's library can be [downloaded here](https://github.com/FrankBoesing/TFT_eSPI_ext).
 
-Main PowerPoint slide lists capabilities:
+The first PowerPoint slide lists capabilities, this slide is not included in the generated sketch:
 
 ![PPT Slide 1](https://i.imgur.com/7EO7HqH.png)
 
-Slide 2 as created in PowerPoint example:
+Here is slide 2 as created in PowerPoint example:
 
 ![PPT Slide 2](https://i.imgur.com/7G1izHN.png)
 
-Slide 2 as drawn by the created sketch:
+Slide 2 as drawn by the created sketch and drawn on a 480x320 pixel TFT:
 
 ![TFT Slide 2](https://i.imgur.com/Ww4tvxh.png)
 
-Slide 6 shows how varbles can be included in tables:
+Slide 6 shows how variables can be included in tables:
 
 ![PPT Slide 6](https://i.imgur.com/7PIRVVX.png)
 
@@ -34,3 +34,5 @@ Rounded rectangles in the PowerPoint slide create clickable "buttons" on the TFT
 Slide 7 as drawn on TFT by created sketch:
 
 ![TFT Slide 7](https://i.imgur.com/DN5tzQm.png)
+
+[Here is the sketch](https://github.com/Bodmer/PowerPoint_to_sketch/blob/main/PowerPoint_Screens/PowerPoint_Screens.ino) that has been generated from the presentation by the VB macro.
